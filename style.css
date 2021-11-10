@@ -197,7 +197,7 @@ a {
 }
 
 .skills {
-	padding-left: 80px;
+	padding-left: 40px;
 	/* padding: 0px 10px 0px 80px */
 }
 
@@ -207,4 +207,9 @@ a {
 	/* padding:26px; */
 	/* width:922px; */
 	/* background:url(images/footer_bg.gif) repeat-x center top; */
+}
+
+.movies_list {
+	width: 500;
+	height: 600;
 }
