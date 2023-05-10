@@ -1,0 +1,9 @@
+.map-container {
+  height: 600px;
+  width: 100%;
+}
+
+.marker-active .leaflet-marker-icon {
+  transform: scale(1.5);
+  transition: transform 0.3s ease;
+}
