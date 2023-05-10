@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sz7li.github.io/static/css/main.28977b56.css",
-    "main.js": "/sz7li.github.io/static/js/main.01ddd720.js",
-    "static/js/787.757d592c.chunk.js": "/sz7li.github.io/static/js/787.757d592c.chunk.js",
+    "main.js": "/sz7li.github.io/static/js/main.c12b8ea1.js",
+    "static/js/787.95d66c56.chunk.js": "/sz7li.github.io/static/js/787.95d66c56.chunk.js",
     "static/media/The Last of Us (2023).png": "/sz7li.github.io/static/media/The Last of Us (2023).bdb7ffffceedf0ea5e65.png",
     "static/media/dp.jpg": "/sz7li.github.io/static/media/dp.ab4ba11ad3ff83575b09.jpg",
     "static/media/better-call-saul_4038_1440x2560.jpg": "/sz7li.github.io/static/media/better-call-saul_4038_1440x2560.ef542111b109e8c88804.jpg",
@@ -24,11 +24,11 @@
     "static/media/proj.jpg": "/sz7li.github.io/static/media/proj.b95f3b5c8ba431f32bb2.jpg",
     "index.html": "/sz7li.github.io/index.html",
     "main.28977b56.css.map": "/sz7li.github.io/static/css/main.28977b56.css.map",
-    "main.01ddd720.js.map": "/sz7li.github.io/static/js/main.01ddd720.js.map",
-    "787.757d592c.chunk.js.map": "/sz7li.github.io/static/js/787.757d592c.chunk.js.map"
+    "main.c12b8ea1.js.map": "/sz7li.github.io/static/js/main.c12b8ea1.js.map",
+    "787.95d66c56.chunk.js.map": "/sz7li.github.io/static/js/787.95d66c56.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.28977b56.css",
-    "static/js/main.01ddd720.js"
+    "static/js/main.c12b8ea1.js"
   ]
 }
