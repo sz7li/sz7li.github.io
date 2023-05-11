@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.53cc531f.css",
-    "main.js": "/static/js/main.06588d6c.js",
+    "main.js": "/static/js/main.9723f75e.js",
     "static/js/787.95d66c56.chunk.js": "/static/js/787.95d66c56.chunk.js",
     "static/media/The Last of Us (2023).png": "/static/media/The Last of Us (2023).bdb7ffffceedf0ea5e65.png",
     "static/media/dp.jpg": "/static/media/dp.ab4ba11ad3ff83575b09.jpg",
@@ -24,11 +24,11 @@
     "static/media/whiplash (2014).jpg": "/static/media/whiplash (2014).3d531fbb8b3b75273669.jpg",
     "index.html": "/index.html",
     "main.53cc531f.css.map": "/static/css/main.53cc531f.css.map",
-    "main.06588d6c.js.map": "/static/js/main.06588d6c.js.map",
+    "main.9723f75e.js.map": "/static/js/main.9723f75e.js.map",
     "787.95d66c56.chunk.js.map": "/static/js/787.95d66c56.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.53cc531f.css",
-    "static/js/main.06588d6c.js"
+    "static/js/main.9723f75e.js"
   ]
 }
