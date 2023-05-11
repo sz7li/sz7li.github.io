@@ -3,6 +3,7 @@ import Main from '../components/main'
 import Bio from '../components/bio'
 import Bio_body from '../components/bio_body'
 import BioIntro from '../components/bio_intro';
+import Navbar from '../components/navbar';
 import ScrollButton from '../components/scroll_button';
 import ScrollUpButton from '../components/scroll_up_button';
 import ReachOut from '../components/reach_out';
@@ -47,7 +48,7 @@ const Home = (props) => {
     return <>
     <AnimatePresence>
         <motion.div 
-            className='bg-lightRose flex flex-col justify-evenly relative font-display min-h-screen p-2'
+            className='bg-lightRose flex flex-col relative font-display'
             initial={{opacity: 0}} 
             animate={{opacity: 1}} 
             exit={{opacity: 0}}
@@ -55,7 +56,8 @@ const Home = (props) => {
                 duration:1
             }}
         >
-            <div className={`flex flex-col ${config.primary.bg} justify-between  h-[calc(100vh-73px)] py-24`}>
+            <div className={`flex flex-col ${config.primary.bg} pb-10 justify-evenly min-h-screen`}>
+                <div className=''></div>
                 <Main bg={config}></Main>
                 <Footer bg={config}></Footer>
             </div>
@@ -63,28 +65,28 @@ const Home = (props) => {
 
             {/* First bio section*/}
 
-            <div className={`${bio_1_background} ${bio_1_text} font-display min-h-screen flex flex-col justify-evenly transition ease-in-out duration-500`}>
-            <Bio bg={config}></Bio>
-            <div className={`${config.primary.bg_2} flex justify-between container relative mx-auto p-2`}>
-                <Bio_body bg={config} text={["Hello!", "I am a recent grad", "from the University of Waterloo"]}></Bio_body>
-                <BioIntro bg={config} text={["I completed my Bachelor's of Mathematics majoring in Statistics and Computational Math, with a minor in Computing. I am interested in the applications of Data Science.", "I have completed six internships during undergrad, as Software Engineering and Data Science interns at large and small companies such as KPMG, CIBC, ThinkData Works, and HeadSpin.", "Happy to chat!"]}></BioIntro>
-            </div>
-            <div className={`${config.primary.bg_2} text-right px-12 container relative mx-auto text-xs sm:text-sm`}>
-                <ScrollButton></ScrollButton>
-            </div>
+            <div className={`${bio_1_background} ${bio_1_text} transition duration-500 font-display min-h-screen flex flex-col justify-around py-4 md:py-10`}>
+                <Bio bg={config}></Bio>
+                <div className={`${config.primary.bg_2} flex justify-between container relative mx-auto items-start px-8 md:px-20`}>
+                    <Bio_body bg={config} text={["Hello!", "I am a recent grad", "from the University of Waterloo"]}></Bio_body>
+                    <BioIntro bg={config} text={["I majored in Statistics and Computational Math, with a minor in Computing.", "I completed six Data Science/Software Engineering internships during undergrad at large and small companies.", "Happy to chat!"]}></BioIntro>
+                </div>
+                <div className={`${config.primary.bg_2} text-right container relative mx-auto text-xs sm:text-sm px-8 md:px-20`}>
+                    <ScrollButton></ScrollButton>
+                </div>
             </div>
 
             {/* Second bio section*/}
 
-            <div className={`${bio_2_background} ${bio_2_text} font-display min-h-screen flex flex-col justify-evenly transition ease-in-out duration-500`}>
-            <Bio bg={config}></Bio>
-            <div className={`${config.primary.bg_2} flex justify-between container relative mx-auto p-2`}>
-                <Bio_body bg={config} text={["Technologies I have worked with:", "", "Python, SQL, Pandas, NumPy, PySpark, Git, Bash"]}></Bio_body>
-                <BioIntro bg={config} text={["I have worked on real-world projects in", "Image retrieval using classical Computer Vision techniques, large-scale NLP Data Deduplication, Text Clustering, Data Visualization, Semantic Search, Web Development"]}></BioIntro>
-            </div>
-            <div className={`${config.primary.bg_2} text-right px-12 container relative mx-auto text-xs sm:text-sm`}>
-            <ScrollUpButton></ScrollUpButton>
-            </div>
+            <div className={`${bio_2_background} ${bio_2_text} transition duration-500 font-display min-h-screen flex flex-col justify-around py-4 md:py-10`}>
+                <Bio bg={config}></Bio>
+                <div className={`${config.primary.bg_2} flex justify-between container relative items-start mx-auto px-8 md:px-20`}>
+                    <Bio_body bg={config} text={["Tech stack:", "", "Python, SQL, Pandas, NumPy, PySpark, Git, Bash"]}></Bio_body>
+                    <BioIntro bg={config} text={["I have worked on real-world projects in: ", "Image matching with classical Computer Vision techniques, large-scale NLP Data Deduplication, Text Clustering, Data Visualization, Semantic Search, Web Development"]}></BioIntro>
+                </div>
+                <div className={`${config.primary.bg_2} text-right container relative mx-auto text-xs sm:text-sm px-8 md:px-20`}>
+                    <ScrollUpButton></ScrollUpButton>
+                </div>
             </div>
 
             {/* <div className={`bg-lightRose font-display min-h-screen flex flex-col justify-between p-6`}>

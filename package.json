@@ -1,7 +1,7 @@
 {
   "name": "sz7li.github.io",
+  "homepage": "https://sz7li.github.io",
   "version": "0.1.0",
-  "homepage": "https://sz7li.github.io/sz7li.github.io/",
   "private": true,
   "dependencies": {
     "@craco/craco": "^7.0.0",
