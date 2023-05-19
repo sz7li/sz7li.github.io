@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.53cc531f.css",
-    "main.js": "/static/js/main.9723f75e.js",
+    "main.js": "/static/js/main.a775cd76.js",
     "static/js/787.95d66c56.chunk.js": "/static/js/787.95d66c56.chunk.js",
     "static/media/The Last of Us (2023).png": "/static/media/The Last of Us (2023).bdb7ffffceedf0ea5e65.png",
     "static/media/dp.jpg": "/static/media/dp.ab4ba11ad3ff83575b09.jpg",
@@ -20,15 +20,15 @@
     "static/media/dead-poets-society_8d26_1440x2560.jpg": "/static/media/dead-poets-society_8d26_1440x2560.3d105fb42d156ded96d7.jpg",
     "static/media/Catch Me If You Can (2002).jpeg": "/static/media/Catch Me If You Can (2002).b53ac65c34935cddc600.jpeg",
     "static/media/xnhBaCzaP6z9sTKRhxwKRJVrlT.jpg": "/static/media/xnhBaCzaP6z9sTKRhxwKRJVrlT.831c74c3d53fa5c49177.jpg",
-    "static/media/resume.pdf": "/static/media/resume.b2de0811ed5ccab87f5f.pdf",
+    "static/media/resume.pdf": "/static/media/resume.07e9c4ddfb18930ed797.pdf",
     "static/media/whiplash (2014).jpg": "/static/media/whiplash (2014).3d531fbb8b3b75273669.jpg",
     "index.html": "/index.html",
     "main.53cc531f.css.map": "/static/css/main.53cc531f.css.map",
-    "main.9723f75e.js.map": "/static/js/main.9723f75e.js.map",
+    "main.a775cd76.js.map": "/static/js/main.a775cd76.js.map",
     "787.95d66c56.chunk.js.map": "/static/js/787.95d66c56.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.53cc531f.css",
-    "static/js/main.9723f75e.js"
+    "static/js/main.a775cd76.js"
   ]
 }
